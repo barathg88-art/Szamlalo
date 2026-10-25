@@ -20,7 +20,7 @@ Tipp: ha az égre kattintasz, oda is kilő egy rakétát.
 **Interneten (GitHub Pages):**
 1. A repó oldalán: **Settings** → bal oldalt **Pages**.
 2. A „Branch” résznél válaszd: `main` és `/ (root)`, majd **Save**.
-3. Egy-két perc múlva megjelenik a link, például: `https://barathg88-art.github.io/szamlalo/`
+3. Egy-két perc múlva megjelenik a link, például: `https://barathg88-art.github.io/Szamlalo/`
 
 ## Fájlok
 
