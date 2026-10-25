@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Szilveszteri visszaszámláló</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="egbolt"></canvas>
+
+  <main id="felulet">
+    <h1 id="cim">Visszaszámlálás szilveszterig</h1>
+
+    <div id="szamlalo" aria-live="polite">
+      <div class="egyseg"><span id="nap">0</span><small>nap</small></div>
+      <div class="egyseg"><span id="ora">00</span><small>óra</small></div>
+      <div class="egyseg"><span id="perc">00</span><small>perc</small></div>
+      <div class="egyseg"><span id="mp">00</span><small>másodperc</small></div>
+    </div>
+
+    <div id="nagyszam" hidden></div>
+    <h2 id="ujev" hidden>Boldog új évet!</h2>
+
+    <div id="gombok">
+      <button id="nullaz" title="Azonnal lenullázza a számlálót, és indul a tűzijáték">Nullázás (teszt)</button>
+      <button id="teszt10" title="10 másodpercre állítja a számlálót">10 mp-es teszt</button>
+      <button id="vissza" hidden>Vissza a valódi számlálóhoz</button>
+      <button id="hang" aria-pressed="false">🔇 Hang bekapcsolása</button>
+    </div>
+    <p id="tipp">Tipp: a böngészők csak egy kattintás után engednek hangot lejátszani, ezért kapcsold be a hangot a gombbal.</p>
+  </main>
+
+  <script src="tuzijatek.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
